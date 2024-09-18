@@ -1,218 +1,275 @@
-/* Livelihood Section */
-.Envi-section {
-    position: relative;
-    text-align: center;
-    background-color: #9db87e;
+/* Environment.css */
+
+/* Global Styles */
+.event-list-page12 {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.environment-section12 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.Environment-image12 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.Environment-text12 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.Environment-title12 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.Environment-subtitle12 {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+/* Focus Areas Section */
+.about-campaign12 {
+  padding: 2rem 1rem;
+  background-color: #f4f4f4;
+}
+
+.about-content12 {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title12 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.section-description12 {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.focus-areas12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.focus-item12 {
+  flex: 1 1 250px;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.focus-item12:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.focus-icon12 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 0.5rem;
+}
+
+.focus-item12 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.focus-item12 p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Featured Environmental Programs Section */
+.environment-programs12 {
+  padding: 2rem 1rem;
+}
+
+.program-grid12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.program-card12 {
+  flex: 1 1 300px;
+  margin: 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.program-card-alternate12 {
+  background-color: #f9f9f9;
+}
+
+.card-img12 {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title12 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text12 {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-btn12 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-btn12:hover {
+  background-color: #45a049;
+}
+
+/* Our Complete Works Section */
+.complete-works-section12 {
+  padding: 2rem 1rem;
+  background-color: #f4f4f4;
+}
+
+.works-grid12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work-card12 {
+  flex: 1 1 300px;
+  margin: 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work-card-alternate12 {
+  background-color: #f9f9f9;
+}
+
+.card-img12 {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title12 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text12 {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .Environment-title12 {
+    font-size: 1.5rem;
   }
   
-  .Envi-image {
-    height: 550px;
+
+  .Environment-subtitle12 {
+    font-size: 0.5rem;
+  }
+
+  .section-title12 {
+    font-size: 1.75rem;
+  }
+
+  .section-description12 {
+    font-size: 1rem;
+  }
+
+  .focus-item12 {
+    flex: 1 1 100%;
+    margin: 0.5rem;
+  }
+
+  .program-card12,
+  .work-card12 {
+    flex: 1 1 100%;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Environment-title12 {
+    font-size: 1.75rem;
+  }
+
+  .Environment-subtitle12 {
+    font-size: 1.25rem;
+  }
+  .Environment-image12 {
     width: 100%;
-    object-fit: cover;
-    opacity: 1;
-  }
-  
-  .Envi-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    text-align: center;
-    width: 80%;
-  }
-  
-  .Envi-title {
-    font-size: 5rem;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.20); /* Adjust values as needed */
-  }
-  
-  
-  .Envi-subtitle {
-    font-size: 2rem;
-    margin-top: 5px;
-  }
-  
-  /* WHY SKILLING Section */
-  .why-skilling {
-    margin-top: 10px;
-    text-align: center;
-    margin-left: 5px;
-  }
-  
-  .why-skilling h1 {
-    font-weight: bold;
-    font-size: 2.5rem;
     margin-top: 70px;
-    color: #333;
+    height: 30%;
   }
-  
-  /* Paragraph Section */
-  .paragraph-section {
-    background-color: white;
-    padding: 50px;
-    border-radius: 8px;
-    max-width: 90%;
-    margin: 20px auto;
-    color: black;
+
+  .section-title12 {
+    font-size: 1.5rem;
+    margin-top: 20%;
   }
-  
-  .paragraph-section p {
-    margin: 0;
-    font-size: 1.2rem;
-    color: black;
-    text-align: justify;
+
+  .section-description12 {
+    font-size: 0.875rem;
   }
-  
-  /* WHAT WE HAVE DONE */
-  .done-title {
-    font-size: 4rem;
-    font-weight: bold;
-    font-family: 'Bodoni Moda', serif;
-    color: green;
-    text-align: center;
-    margin: 20px 0;
+
+  .focus-item12 {
+    padding: 1rem;
   }
-  
-  /* Content Section */
-  .content-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    max-width: 100%;
-    margin: 0 auto;
-    background-color: #e4f4f3;
-    flex-wrap: wrap;
+
+  .card-title12 {
+    font-size: 1rem;
   }
-  
-  .image-container {
-    flex: 1;
-    text-align: left;
-    margin-bottom: 20px;
+
+  .card-text12 {
+    font-size: 0.875rem;
   }
-  
-  .carousel-image {
-    height: 450px;
-    width: 100%;
-    object-fit: cover;
+
+  .card-btn12 {
+    font-size: 0.875rem;
   }
-  
-  .training-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-family: 'Bodoni Moda', serif;
-    color: black;
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .content {
-    flex: 1;
-    padding-left: 20px;
-    text-align: justify;
-  }
-  
-  .content p {
-    font-size: 1.2rem;
-    color: black;
-    font-family: 'Bodoni Moda', serif;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .Envi-section {
-      
-      margin-top: 40px;
-    }
-  
-    .Envi-image {
-      height: 350px;
-    }
-  
-    .Envi-text {
-      width: 90%;
-    }
-  
-    .Envi-title {
-      font-size: 2.5rem;
-    }
-  
-    .Envi-subtitle {
-      font-size: 1.5rem;
-    }
-  
-    .why-skilling h1 {
-      font-size: 2rem;
-      margin-top: 40px;
-    }
-  
-    .paragraph-section {
-      padding: 20px;
-    }
-  
-    .paragraph-section p {
-      font-size: 1rem;
-    }
-  
-    .done-title {
-      font-size: 2.5rem;
-    }
-  
-    .content-section {
-      flex-direction: column;
-      padding: 10px;
-    }
-  
-    .image-container {
-      width: 100%;
-    }
-  
-    .carousel-image {
-      height: 300px;
-    }
-  
-    .training-title {
-      font-size: 2rem;
-    }
-  
-    .content {
-      padding-left: 0;
-      padding-top: 20px;
-      text-align: center;
-    }
-  
-    .content p {
-      font-size: 1rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .Envi-title {
-      font-size: 2rem;
-    }
-  
-    .Envi-subtitle {
-      font-size: 1.2rem;
-    }
-  
-    .why-skilling h1 {
-      font-size: 1.5rem;
-      margin-top: 20px;
-    }
-  
-    .paragraph-section p {
-      font-size: 0.9rem;
-    }
-  
-    .done-title {
-      font-size: 2rem;
-    }
-  
-    .content p {
-      font-size: 0.9rem;
-    }
-  }
+}

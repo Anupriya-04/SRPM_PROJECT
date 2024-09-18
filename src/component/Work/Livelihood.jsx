@@ -177,8 +177,7 @@ const Livelihood = () => {
 
 
 
-    <br></br>
-      <br></br>
+    
 <br></br>
 
 
